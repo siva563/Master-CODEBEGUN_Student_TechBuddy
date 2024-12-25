@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import RoleNav from "./RoleNav";
-import logo from "../images/e_logo.png";
+import logo from "../assets/images/CB_Main_Logo.png";
 
 const Header = () => {
   return (
@@ -14,11 +14,11 @@ const Header = () => {
             class="d-inline-block align-top"
             alt=""
           />
-          <Link to="/" class="navbar-brand">
+          {/* <Link to="/" class="navbar-brand">
             <i>
-              <b className="text-color-second ms-2">Learn Management System</b>
+              <b className="text-color-second ms-2">L</b>
             </i>
-          </Link>
+          </Link> */}
 
           <button
             class="navbar-toggler"
