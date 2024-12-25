@@ -121,7 +121,7 @@ const UserLoginForm = () => {
             </div>
             <div className="card-body mt-3">
               <form>
-                {/* <div class="mb-3 text-color">
+                <div class="mb-3 text-color">
                   <label for="role" class="form-label">
                     <b>User Role</b>
                   </label>
@@ -135,7 +135,7 @@ const UserLoginForm = () => {
                     <option value="Customer"> Customer </option>
                     <option value="Mentor"> Mentor </option>
                   </select>
-                </div> */}
+                </div>
 
                 <div className="mb-3 text-color">
                   <label for="emailId" class="form-label">
